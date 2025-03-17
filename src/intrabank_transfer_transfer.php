@@ -12,7 +12,7 @@ try {
 
   list($accessToken, $timestamp) = getAccessToken(
     $clientId,
-    $pKeyId,
+    $privateKey,
     $baseUrl
   );
 
@@ -28,7 +28,7 @@ try {
   $feeType = '';
   $remark = '';
   $customerReference = '';
-  $transactionDate = (new GenerateDate())->generate();
+  $transactionDate = '';//(new GenerateDate())->generate();
   $value = ''; // 10000.00
   $currency = '';
 

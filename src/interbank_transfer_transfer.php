@@ -25,7 +25,7 @@ try {
   $beneficiaryAccountNo = '';
   $beneficiaryBankCode = '';
   $sourceAccountNo = '';
-  $transactionDate = (new GenerateDate())->generate();
+  $transactionDate = '';//(new GenerateDate())->generate();
   $beneficiaryAddress = '';
   $beneficiaryBankName = '';
   $beneficiaryEmail = '';

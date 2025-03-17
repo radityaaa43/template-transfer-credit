@@ -10,7 +10,7 @@ try {
 
   list($accessToken, $timestamp) = getAccessToken(
     $clientId,
-    $pKeyId,
+    $privateKey,
     $baseUrl
   );
 
